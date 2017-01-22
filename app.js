@@ -44,7 +44,7 @@ bot.dialog('/user', new builder.IntentDialog()
             //  }, 3000)
         },
         function (session, results) {
-            quiz.GetSets(results.response);
+            quiz.GetSet s(results.response);
             session.beginDialog('/subject')
         }])
     .matches(/^no/i, function (session) {
@@ -66,7 +66,7 @@ bot.dialog('/subject', [
     }]
 );
 
-bot.dialog('/study', new builder.IntentD        ialog()
+bot.dialog('/study', new builder.IntentDialog()
     .matches(/^ready/i, [
         function (session) {
             session.send(quiz.Terms[index])
