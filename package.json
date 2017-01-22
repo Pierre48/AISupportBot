@@ -1,0 +1,23 @@
+{
+  "name": "aisupportbot",
+  "version": "1.0.0",
+  "description": "Just a simple bot for support tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pierre48/AISupportBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pierre48/AISupportBot/issues"
+  },
+  "homepage": "https://github.com/Pierre48/AISupportBot#readme",
+  "dependencies": {
+    "botbuilder": "^3.5.3",
+    "restify": "^4.3.0"
+  }
+}
