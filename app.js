@@ -44,7 +44,7 @@ bot.dialog('/user', new builder.IntentDialog()
             //  }, 3000)
         },
         function (session, results) {
-            quiz.GetSet s(results.response);
+            quiz.GetSets(results.response);
             session.beginDialog('/subject')
         }])
     .matches(/^no/i, function (session) {
