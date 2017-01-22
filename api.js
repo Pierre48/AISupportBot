@@ -13,8 +13,8 @@ var restify = require('restify');
 
     // Create chat bot
     var connector = new builder.ChatConnector({
-       appId: <YOUR APP ID>,
-        appPassword: <YOUR APP PASSWORD>
+       appId: '58a6aad4-bb4b-4518-8d72-a5abcfceb327',
+        appPassword: '07iaDPErFSDDDufj6PZbvFP'
     });
 
     var bot = new builder.UniversalBot(connector);
